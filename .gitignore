@@ -1,0 +1,4 @@
+.envrc
+site/
+.cache/
+.direnv/

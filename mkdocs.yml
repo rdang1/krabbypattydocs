@@ -1,0 +1,30 @@
+site_name: Krabby Patty Docs
+nav:
+  - Home: index.md
+  - NixOS:
+    - 'Rebuilding from broken GRUB': nixos/broken-grub.md
+    - 'Helpful Links and Snippets': nixos/links-and-snippets.md
+  - Linux:
+    - 'Setting Default Browser': linux/default-browser.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.annotate
+    - content.code.copy
+plugins:
+  - offline
+  - privacy
+markdown_extensions:
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
