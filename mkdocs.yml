@@ -2,6 +2,7 @@ site_name: Krabby Patty Docs
 nav:
   - Home: index.md
   - NixOS:
+    - 'Generating NixOS configuration files': nixos/generate-configuration-nix.md
     - 'Rebuilding from broken GRUB': nixos/broken-grub.md
     - 'Helpful Links and Snippets': nixos/links-and-snippets.md
   - Linux:
