@@ -6,6 +6,8 @@ nav:
     - 'Helpful Links and Snippets': nixos/links-and-snippets.md
   - Linux:
     - 'Setting Default Browser': linux/default-browser.md
+  - Neovim:
+    - 'Helpful Links and Snippets': neovim/links-and-snippets.md
 theme:
   name: material
   features:
