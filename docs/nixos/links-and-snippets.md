@@ -9,7 +9,7 @@ Rebuilds system and switches to new configuration.
 === "Flake"
 
     ```bash
-    sudo nixos-rebuild switch --flake ~/flake/#HOSTNAME -v # (1)!
+    sudo nixos-rebuild switch --flake ~/flake/#HOSTNAME -v #(1)!
     ```
 
     1. Point --flake to the directory of the flake and specify the hostname if
@@ -18,7 +18,7 @@ Rebuilds system and switches to new configuration.
 === "Non-flake"
 
     ```bash
-    sudo nixos-rebuild switch -v # (1)!
+    sudo nixos-rebuild switch -v #(1)!
     ```
     
     1. Uses configuration.nix from /etc/nixos.
@@ -52,7 +52,7 @@ Deletes old packages and configuration from nix store[^1].
 === "Delete older than X"
 
     ```bash
-    sudo nix-collect-garbage --delete-older-than 30d # (1)!
+    sudo nix-collect-garbage --delete-older-than 30d #(1)!
     ```
 
     1. Set date to your own perference.
